@@ -1,0 +1,458 @@
+
+/* Style for the body*/
+body {
+  margin:0;
+  padding:0;
+}
+
+ /* Style for the header */
+
+#topborder {
+  width: vp;
+  height: 1em;
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); 
+}
+
+#header-image {
+  padding-bottom: 20px;
+  
+}
+
+header h1 {
+    font-family: cursive;
+    font-size: 32pt;
+    color: #97a4aa;
+  }
+
+  /*header h3 {
+    font-size: 26pt;
+    font-family: cursive;
+    text-align: right;
+    padding-right: 250px;
+    color:#9e97aa;
+  }
+
+  */
+
+
+  
+/* Style for the navigation bar in heading */
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  color:#979aaa;
+  padding: 14px 16px; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #979aaa;
+  color:white;
+}
+
+.quoteimage {
+  padding-left: 20px;
+
+}
+
+.image {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+   header { 
+    margin:0;
+    padding:0;
+  }
+/*
+  header h1 {
+    font-family: cursive;
+    font-size: 40px;
+    color: #97a4aa;
+  }
+
+  header h3 {
+    font-size: 30px;
+    font-family: cursive;
+  }
+  */
+
+
+/* Style for the energy container section */
+
+.main-container {
+  display: flex;
+  background-color: #979aaa;
+  margin: 10px;
+  padding: 20px;
+  border: white;
+  border-radius: 25px;
+  border-style: double;
+  border-width: .75em;
+  color: white;
+}
+
+#quote {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  color: #979aaa;
+  border-radius: 25px;
+}
+
+#statement {
+  padding: 20px;
+}
+
+
+.quoteimage {
+  border-style: solid;
+  border-radius: 25px;
+  border-width:.24em;
+  border-color: #979aaa;
+}
+
+ /* Style for the about container */
+.about {
+  display: flex;
+  border-style:double;
+  border-width:.75em;
+  border-color: white;
+  background-color:#979aaa ;
+  /*background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); */
+  border-radius: 25px;
+  margin-bottom: 10px;
+ }
+
+ /* background-color: #979aaa; /* For browsers that do not support gradients 
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); */
+
+
+ 
+
+ .about> div {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-style: double;
+  border-radius: 25px;
+ }
+
+ /* Style for div class Blog */
+
+ .blog {
+  background-color:white;
+  margin: 10px;
+  padding: 20px;
+  border-width: .75em;
+  border-radius: 25px;
+  border-style: double;
+  border-color: #97a4aa;
+  color: #97a4aa;
+ }
+
+ 
+ /* Style for Article Blog Section */
+
+ #blogpost1 {
+  border-style:hidden;
+  border-width: .25em;
+  border-color:  #97a4aa;
+  background-color: white;
+  color:#97a4aa;
+  text-align: center;
+ }
+
+
+ #blogpost2 {
+  border-style:hidden;
+  border-width: .25em;
+  border-color:  #97a4aa;
+  background-color: white;
+  color:#97a4aa;
+  text-align: center;
+ }
+
+ #blogpost3 {
+  border-style:hidden;
+  border-width: .25em;
+  border-color:  #97a4aa;
+  background-color: white;
+  color:#97a4aa;
+  text-align: center;
+ }
+/*This is not what I am keeping will adjust once I decide my plan */
+
+ .blog-container{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+ }
+
+ .blog-container> div {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+ }
+
+ /* The links of the blogposts style */
+ .blog-container a {
+  color:#97a4aa;
+  text-decoration: none;
+}
+.blog-container a:hover {
+  font-size: 200%;
+}
+
+ 
+/* Style for Newsletter Modal */
+
+
+*{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+.container{
+  width:400px;
+  height:500px;
+  background:#fff;
+  margin:20px auto;
+  border-radius:4px;
+  text-align:center;
+  position:relative;
+  -moz-box-shadow: 0px 0px 28px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0px 0px 28px rgba(0,0,0,.3);
+   box-shadow: 0px 0px 28px rgba(0,0,0,.3);
+   overflow:hidden;
+}
+
+
+.one , .two{
+  display:block;
+  height:500px;
+  width:400px;
+  margin:0px auto;
+  position:absolute;
+  -webkit-transition: all 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition:         all 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+}
+
+.one{
+  top:0;
+  background:#fff;
+  margin-top:20px;
+}
+
+.two{
+  top:500px;
+  background-color: #9e97aa;
+}
+
+.two h3{
+  color:#fff;
+  padding-top:240px;
+}
+
+.container .logo{
+  width:40%;
+  height:auto;
+  display:block;
+  margin:20px auto;
+}
+
+.one  .heading{
+  color:#607d8b;
+  text-transform:capitalize;
+  font-size:20px;
+  fonr-weight:900;
+  margin-top:40px;
+}
+
+.container p{
+  font-size:12px;
+  color:#b7b7b7;
+  font-weight:lighter;
+  text-transform:capitalize;
+}
+
+input[type='text']{
+  width:85%;
+  height:60px;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding-bottom:-80px;
+  border:none;
+  border-bottom:3px solid #979aaa;
+  overflow:auto;
+  position:relative;
+}
+
+
+
+
+
+input[type='text']:active:focus,
+input[type='text']:focus,
+input[type='text']:hover{
+  outline : none;
+  font-size:20px;
+}
+
+
+
+input[type='text']:focus::-webkit-input-placeholder,
+input[type='text']:active:focus::-webkit-input-placeholder
+{
+  font-size:12px;
+  display:block;
+  -webkit-transform:translateY(-20px);
+  transform:translateY(-20px);
+}
+
+::-webkit-placeholder{
+  font-size:14px;
+  color:#b7b7b7;
+  text-transform:capitalize;
+  -webkit-transform:translateY(0px);
+  transform:translateY(0px);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; 
+}
+
+::placeholder{
+  font-size:14px;
+  color:#b7b7b7;
+  text-transform:capitalize;
+  -webkit-transform:translateY(0px);
+  transform:translateY(0px);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; 
+}
+
+.one  .btn{
+  width:85%;
+  background:#979aaa;
+  padding:15px;
+  border:none;
+  border-radius:5px;
+  font-size:14px;
+  color:#fff;
+  text-transform:capitalize;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.one  .btn:active:focus,
+.one  .btn:focus,
+.one  .btn:hover{
+  outline : none;
+}
+
+.one .btn:hover{
+  cursor:pointer;
+}
+
+.close{
+  position:relative;
+  top:0;
+  left:0;
+  display:block;
+  cursor:pointer;
+}
+
+.close:before{
+  content:"";
+  position:absolute;
+  top:-240px;
+  right:50px;
+  display:block;
+  width:22px;
+  height:3px;
+  background:#fff;
+  -webkit-transform:rotate(45deg);
+  transform:rotate(45deg);
+}
+
+.close:after{
+  content:"";
+  position:absolute;
+  top:-240px;
+  right:50px;
+  display:block;
+  width:22px;
+  height:3px;
+  background:#fff;
+  -webkit-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}
+
+
+
+/* Style for footer section */
+
+ footer {
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); 
+  padding-top: 20px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Style for social media icons */
+
+.socialmedia {
+  display: inline-block;
+}
+.socialmedia>div {
+  width: 165px;
+}
+
+.fa-facebook {
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); 
+  color: white;
+}
+
+.fa-instagram {
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); 
+  color: white;
+}
+
+.fa-twitter {
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); 
+  color: white;
+}
+
+#top_link {
+  font-size: 14pt;
+}
+.privacy a:link {
+  color: white;
+}
+.privacy a:hover {
+  background-color: white ;
+  color:#9e97aa;
+}
+
+.copyright {
+  color: white;
+}
+
+/* In footer use awesome icons for facebook, twitter and instagram. Also put contact information and copywright */
+
+/* Style for Newsletter Modal */
+
+
+

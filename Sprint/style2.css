@@ -1,0 +1,266 @@
+/* Style for the body including the cursor*/
+body {
+  margin:0;
+  padding:0;
+  background-color:white ;
+}
+
+
+ /* Style for the header */
+
+#topborder {
+  width: vp;
+  height: 1em;
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); 
+}
+
+#header-image {
+  padding-bottom: 20px;
+  
+}
+
+header h1 {
+    font-family: cursive;
+    font-size: 32pt;
+    color: #97a4aa;
+  }
+
+  /*header h3 {
+    font-size: 26pt;
+    font-family: cursive;
+    text-align: right;
+    padding-right: 250px;
+    color:#9e97aa;
+  }
+
+  */
+
+
+  
+/* Style for the navigation bar in heading */
+
+.topnav {
+  margin-left: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  color:#979aaa;
+  padding: 14px 16px; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #979aaa;
+  color:white;
+}
+
+/* Style for the main section - Introduction to the blog before the blog posts */
+
+main {
+  background-color:#97a4aa;
+  margin: 10px;
+  padding: 20px;
+  border-width: .75em;
+  border-radius: 25px;
+  border-style: double;
+  border-color:white;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16pt;
+ }
+
+  /* Style for div class Blog */
+
+/* Style for Article Blog Section */
+.container{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+ }
+
+ .container> div {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+ }
+
+ /* The links of the blogposts style */
+ .container a {
+  color:#97a4aa;
+  text-decoration: none;
+}
+.container a:hover {
+  font-size: 200%;
+}
+.blog {
+  background-color:white;
+  margin: 10px;
+  padding: 20px;
+  border-width: .75em;
+  border-radius: 25px;
+  border-style: double;
+  border-color: #97a4aa;
+  color: #97a4aa;
+ }
+
+ #blogpost1 {
+  border-style:hidden;
+  border-width: .25em;
+  border-color:  #97a4aa;
+  background-color: white;
+  color:#97a4aa;
+  text-align: center;
+ }
+
+
+ #blogpost2 {
+  border-style:hidden;
+  border-width: .25em;
+  border-color:  #97a4aa;
+  background-color: white;
+  color:#97a4aa;
+  text-align: center;
+ }
+
+ #blogpost3 {
+  border-style:hidden;
+  border-width: .25em;
+  border-color:  #97a4aa;
+  background-color:white;
+  color: #97a4aa;
+  text-align: center;
+ }
+
+ 
+ /* Style for the section section */
+
+ section {
+
+  background-color:white;
+  margin: 10px;
+  padding: 20px;
+  border-width: .75em;
+  border-radius: 25px;
+  border-style: double;
+  border-color:white;
+  color: #9e97aa;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16pt;
+ }
+
+ /* STYLE FOR form container and comment section */
+
+ textarea {
+  color: #9e97aa;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border-color: #97a4aa;
+  border-width: .25em;
+
+}
+ .form-container {
+  background-color: white;
+  width: 40%;
+  padding: 20px;
+ }
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+.btn {
+  padding: 10px 20px;
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa);
+  color:white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.loader {
+  display: none;
+  border: 4px solid rgba(225, 225, 225, 0.3);
+  border-top: 4px solid #979aaa ;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  animation: spin 1s linear infinite;
+  margin-left: 10px;
+}
+@keyframes spin { 
+  0% { 
+      transform: rotate(0deg); 
+  } 
+
+  100% { 
+      transform: rotate(360deg); 
+  } 
+}
+
+ /* Style for footer section */
+
+ footer {
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); 
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Style for social media icons */
+
+.socialmedia {
+  display: inline-block;
+}
+.socialmedia>div {
+  width: 165px;
+}
+
+.fa-facebook {
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); 
+  color: white;
+}
+
+.fa-instagram {
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); 
+  color: white;
+}
+
+.fa-twitter {
+  background-image: linear-gradient(#97a4aa,#979aaa,#9e97aa); 
+  color: white;
+}
+
+#top_link {
+  font-size: 14pt;
+}
+.privacy a:link {
+  color: white;
+}
+.privacy a:hover {
+  background-color: white ;
+  color:#9e97aa;
+}
+
+.copyright {
+  color: white;
+}
+
+
+
+/* In footer use awesome icons for facebook, twitter and instagram. Also put contact information and copywright */
